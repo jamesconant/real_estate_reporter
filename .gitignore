@@ -1,0 +1,5 @@
+/.bundle/**/*
+/vendor/**/*
+/.idea/**/*
+real_estate.db
+real_estate_test.db

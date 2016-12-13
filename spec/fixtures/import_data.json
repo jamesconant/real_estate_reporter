@@ -1,0 +1,60 @@
+[
+  {
+    "sale": {
+      "agent": {
+        "agent": {
+          "first_name": "Bob",
+          "last_name": "Smith",
+          "middle_initial": "A",
+          "brokerage": "Brokerage1"
+        }
+      },
+      "price": 1000,
+      "property": {
+        "property": {
+          "address": "321 Side St",
+          "city": "Centerville",
+          "id": "676239872983",
+          "state": "NY",
+          "unit": "Apt. 2",
+          "zip_code": "12345-2222"
+        }
+      },
+      "review": {
+        "review": {
+          "content": "Bob was great.",
+          "rating": 10
+        }
+      }
+    }
+  },
+  {
+    "sale": {
+      "agent": {
+        "agent": {
+          "first_name": "Jon",
+          "last_name": "Smith",
+          "middle_initial": "A",
+          "brokerage": "Brokerage1"
+        }
+      },
+      "price": 2000,
+      "property": {
+        "property": {
+          "address": "123 Main St",
+          "city": "Centerville",
+          "id": "987418274921",
+          "state": "NY",
+          "unit": "Apt. 1",
+          "zip_code": "12345-1111"
+        }
+      },
+      "review": {
+        "review": {
+          "content": "Jon was terrible.",
+          "rating": 1
+        }
+      }
+    }
+  }
+]

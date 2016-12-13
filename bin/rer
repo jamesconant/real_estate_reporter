@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/real_estate_report'
+
+RealEstateReport.print_report(ARGV)
+
+# Assumptions
+# 1. Agent can only belong to one brokerage at a time.
+# 2. Each sale has exactly one agent.
+# 3. Each sale has at most one review and property.
+# 4. Pulling the report is more frequent than importing files. (hence caching)
+# 5. Sales and ratings aggregations follow the agent, not the brokerage.
